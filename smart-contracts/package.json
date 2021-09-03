@@ -1,0 +1,23 @@
+{
+  "name": "Blockchain-Based-Voting-System",
+  "version": "0.0.1",
+  "description": "Election smart contract and companion dApp",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "ethjs": "^0.4.0",
+    "ganache-core": "^2.2.1",
+    "openzeppelin-solidity": "^1.12.0",
+    "truffle-hdwallet-provider": "^0.0.6",
+    "web3": "github:ethereum/web3.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate"
+  },
+  "homepage": "https://"
+}

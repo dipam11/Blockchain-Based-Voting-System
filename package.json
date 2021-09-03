@@ -1,0 +1,29 @@
+{
+  "name": "Blockchain-Based-Voting-System",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Election smart contract and companion dApp",
+  "workspaces": {
+    "packages": [
+      "interface",
+      "smart-contracts"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "lerna": "^3.1.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "deploy": "cd interface && yarn deploy",
+    "migrate": "cd smart-contracts && yarn migrate",
+    "start": "cd interface && yarn start",
+    "test": "cd smart-contracts && yarn test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "ganache-core": "^2.13.2",
+    "yarn": "^1.22.10"
+  }
+}
