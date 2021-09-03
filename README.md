@@ -23,3 +23,6 @@ This was my PBL project in Second Year really enjoyed doing it and also learned 
 1. Connect your MetaMask to your local ganache
 2. Run `yarn start`
 
+
+Project Runthrough :
+https://drive.google.com/file/d/1tQI5RK_0dlvgSsowzPkzMtHxMd0BUPXD/view?usp=sharing
